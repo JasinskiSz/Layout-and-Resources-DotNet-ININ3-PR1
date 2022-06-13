@@ -30,7 +30,8 @@
         </WrapPanel>
 
         <StackPanel
-            Grid.Row="1">
+            Grid.Row="1"
+            >
             <Label Content="Label description 1"/>
             <Label Content="Label description 2"/>
             <Label Content="Label description 3"/>
