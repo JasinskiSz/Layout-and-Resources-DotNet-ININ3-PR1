@@ -23,7 +23,7 @@
         <WrapPanel
             Grid.Row="0"
             >
-            <Button Style="{StaticResource SpecialStyle}" Content="Testing stuff" Height="48" Width="115"/>
+            <Button Style="{StaticResource SpecialStyle}" Content="Special Testing stuff" Height="48" Width="200"/>
             <Button Content="Testing stuff"/>
             <Button Content="Testing stuff"/>
             <Button Content="Testing stuff"/>
@@ -31,9 +31,9 @@
 
         <StackPanel
             Grid.Row="1">
-            <Label Content="123"/>
-            <Label Content="123"/>
-            <Label Content="123"/>
+            <Label Content="Label description 1"/>
+            <Label Content="Label description 2"/>
+            <Label Content="Label description 3"/>
         </StackPanel>
     </Grid>
 
