@@ -5,11 +5,11 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
 
-        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
-        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#DDF"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#DDF"/>
         <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFFDE6FD"/>
         <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FFB17FB1"/>
-        <SolidColorBrush x:Key="Button.Pressed.Background" Color="Yellow"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#99F"/>
         <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF8B628B"/>
         <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
         <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
@@ -23,15 +23,9 @@
             <Setter Property="FontSize" Value="20"/>
         </Style>
 
-        <!-- Special button style -->
-        <Style TargetType="Button" x:Key="SpecialStyleOld" BasedOn="{StaticResource {x:Type Button}}">
-            <Setter Property="FontSize" Value="20"/>
-            <Setter Property="Background" Value="#DDF"/>
-        </Style>
-
         <Style TargetType="Label">
             <Setter Property="FontSize" Value="24"/>
-            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
         </Style>
 
         <Style x:Key="SpecialStyle" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
@@ -107,6 +101,7 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
+            <Setter Property="FontSize" Value="20"/>
         </Style>
     </Application.Resources>
 </Application>
